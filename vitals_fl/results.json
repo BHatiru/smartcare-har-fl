@@ -1,0 +1,24 @@
+{
+  "Centralized": {
+    "best_acc": 0.8722222222222222
+  },
+  "FedAvg": {
+    "best_acc": 0.6069444444444444
+  },
+  "FedProx": {
+    "best_acc": 0.48194444444444445
+  },
+  "FedBN": {
+    "best_acc": 0.8680555555555556
+  },
+  "config": {
+    "seq_len": 200,
+    "n_channels": 6,
+    "n_classes": 6,
+    "num_clients": 5,
+    "dirichlet_alpha": 0.5,
+    "local_epochs": 2,
+    "batch_size": 32,
+    "lr": 0.001
+  }
+}

@@ -1,0 +1,16 @@
+,falling,staggering,nausea/vomiting,touch head,touch chest,touch back,touch neck,sneeze/cough,standing up,sitting down,walking towards,walking apart,drinking,eating,phone call
+falling,267,2,1,0,3,0,0,0,0,2,0,0,0,0,0
+staggering,0,271,0,0,2,3,0,0,0,0,0,0,0,0,0
+nausea/vomiting,0,1,217,0,43,0,0,12,0,0,0,0,0,2,0
+touch head,0,0,0,229,0,0,18,7,0,0,0,0,19,0,3
+touch chest,0,0,1,0,269,3,3,0,0,0,0,0,0,0,0
+touch back,0,0,0,0,4,270,2,0,0,0,0,0,0,0,0
+touch neck,0,0,0,16,3,0,243,5,0,0,0,0,9,0,0
+sneeze/cough,0,2,8,10,8,2,11,216,0,1,0,0,8,5,5
+standing up,0,0,0,0,2,1,0,2,268,0,0,0,0,0,0
+sitting down,0,3,0,0,0,0,0,0,0,270,0,0,0,0,0
+walking towards,0,0,0,0,0,0,0,0,1,0,272,0,0,0,0
+walking apart,0,6,0,0,0,0,0,0,0,0,3,267,0,0,0
+drinking,0,0,0,1,0,0,0,0,0,0,0,0,261,7,5
+eating,0,0,0,4,1,0,3,4,0,0,0,0,17,232,14
+phone call,0,0,0,8,3,0,2,4,0,0,0,0,28,46,184

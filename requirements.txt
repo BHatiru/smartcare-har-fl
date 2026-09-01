@@ -1,0 +1,13 @@
+# Core training stack
+numpy
+torch>=2.0
+flwr>=1.7
+matplotlib
+
+# vitals_fl/
+pandas
+
+# edge/ benchmark harness (optional)
+# opencv-python
+# onnxruntime
+# ai-edge-litert   # TFLite runtime for the MoveNet front-end

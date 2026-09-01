@@ -1,0 +1,23 @@
+[
+  {
+    "round": 1,
+    "global_acc": 0.07621231865041744,
+    "mean_client_acc": 0.07621231865041744,
+    "worst_client_acc": 0.007194244604316547,
+    "global_loss": 2.4477152571082117
+  },
+  {
+    "round": 2,
+    "global_acc": 0.08535388985052735,
+    "mean_client_acc": 0.08535388985052735,
+    "worst_client_acc": 0.0,
+    "global_loss": 2.552689060270786
+  },
+  {
+    "round": 3,
+    "global_acc": 0.08358379528787957,
+    "mean_client_acc": 0.08358379528787957,
+    "worst_client_acc": 0.0,
+    "global_loss": 2.6028083911538125
+  }
+]

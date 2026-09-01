@@ -1,0 +1,10 @@
+falling
+staggering
+touch head (headache)
+touch chest (heart pain)
+touch back (backache)
+touch neck (neckache)
+nausea or vomiting
+standing up
+sitting down
+walking towards

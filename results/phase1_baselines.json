@@ -1,0 +1,245 @@
+{
+  "config": {
+    "seed": 42,
+    "num_classes": 10,
+    "num_clients": 5,
+    "alpha": 0.5,
+    "num_rounds": 50,
+    "centralized_epochs": 20,
+    "warmup_epochs": 2,
+    "lr": 0.01,
+    "batch_size": 64,
+    "model_kwargs": {
+      "base_channels": 64,
+      "num_stages": 6,
+      "num_person": 2,
+      "dropout": 0.3
+    }
+  },
+  "data": {
+    "train_samples": 6695,
+    "test_samples": 2749,
+    "client_sizes": [
+      1798,
+      1078,
+      1648,
+      1253,
+      918
+    ]
+  },
+  "centralized": {
+    "sampled_history": [
+      {
+        "epoch": 1,
+        "loss": 2.1744,
+        "train_acc": 0.2739,
+        "test_acc": 0.2896
+      },
+      {
+        "epoch": 5,
+        "loss": 0.5472,
+        "train_acc": 0.7958,
+        "test_acc": 0.7897
+      },
+      {
+        "epoch": 10,
+        "loss": 0.2708,
+        "train_acc": 0.9001,
+        "test_acc": 0.7574
+      },
+      {
+        "epoch": 15,
+        "loss": 0.1813,
+        "train_acc": 0.9372,
+        "test_acc": 0.8618
+      },
+      {
+        "epoch": 20,
+        "loss": 0.1655,
+        "train_acc": 0.942,
+        "test_acc": 0.8807
+      }
+    ],
+    "best_acc": 0.8949,
+    "final_acc": 0.8807,
+    "training_time_s": 1516
+  },
+  "warmstart": {
+    "test_acc_after_2ep": 0.4874,
+    "training_time_s": 154
+  },
+  "fedavg": {
+    "sampled_history": [
+      {
+        "round": 1,
+        "test_acc": 0.4289,
+        "mean_client_acc": 0.5375,
+        "worst_client_acc": 0.3247
+      },
+      {
+        "round": 10,
+        "test_acc": 0.6944,
+        "mean_client_acc": 0.6875,
+        "worst_client_acc": 0.5297
+      },
+      {
+        "round": 20,
+        "test_acc": 0.7719,
+        "mean_client_acc": 0.7826,
+        "worst_client_acc": 0.6503
+      },
+      {
+        "round": 30,
+        "test_acc": 0.7377,
+        "mean_client_acc": 0.7855,
+        "worst_client_acc": 0.658
+      },
+      {
+        "round": 40,
+        "test_acc": 0.7195,
+        "mean_client_acc": 0.763,
+        "worst_client_acc": 0.5871
+      },
+      {
+        "round": 50,
+        "test_acc": 0.7195,
+        "mean_client_acc": 0.7629,
+        "worst_client_acc": 0.5991
+      }
+    ],
+    "best_acc": 0.7719,
+    "final_acc": 0.7195,
+    "training_time_s": 4551
+  },
+  "fedbn": {
+    "sampled_history": [
+      {
+        "round": 1,
+        "test_acc": 0.4172,
+        "mean_client_acc": 0.54,
+        "worst_client_acc": 0.3664
+      },
+      {
+        "round": 10,
+        "test_acc": 0.6588,
+        "mean_client_acc": 0.6923,
+        "worst_client_acc": 0.5501
+      },
+      {
+        "round": 20,
+        "test_acc": 0.7566,
+        "mean_client_acc": 0.7733,
+        "worst_client_acc": 0.6419
+      },
+      {
+        "round": 30,
+        "test_acc": 0.7406,
+        "mean_client_acc": 0.7902,
+        "worst_client_acc": 0.6772
+      },
+      {
+        "round": 40,
+        "test_acc": 0.7257,
+        "mean_client_acc": 0.7448,
+        "worst_client_acc": 0.5664
+      },
+      {
+        "round": 50,
+        "test_acc": 0.7264,
+        "mean_client_acc": 0.7529,
+        "worst_client_acc": 0.5926
+      }
+    ],
+    "best_acc": 0.7636,
+    "final_acc": 0.7264,
+    "training_time_s": 4546
+  },
+  "cluster_fedbn": {
+    "sampled_history": [
+      {
+        "round": 1,
+        "test_acc": 0.442,
+        "mean_client_acc": 0.5431,
+        "worst_client_acc": 0.3414
+      },
+      {
+        "round": 10,
+        "test_acc": 0.5391,
+        "mean_client_acc": 0.6983,
+        "worst_client_acc": 0.5492
+      },
+      {
+        "round": 20,
+        "test_acc": 0.6333,
+        "mean_client_acc": 0.76,
+        "worst_client_acc": 0.6224
+      },
+      {
+        "round": 30,
+        "test_acc": 0.7654,
+        "mean_client_acc": 0.7693,
+        "worst_client_acc": 0.68
+      },
+      {
+        "round": 40,
+        "test_acc": 0.7461,
+        "mean_client_acc": 0.7369,
+        "worst_client_acc": 0.6327
+      },
+      {
+        "round": 50,
+        "test_acc": 0.7461,
+        "mean_client_acc": 0.7422,
+        "worst_client_acc": 0.6503
+      }
+    ],
+    "best_acc": 0.7683,
+    "final_acc": 0.7461,
+    "training_time_s": 4550,
+    "cluster_assignments": {
+      "1": [
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "10": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "20": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "30": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "40": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "50": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "note": "Reconstructed from notebook cell outputs (full per-round history lost due to Colab Drive mount failure)"
+}
