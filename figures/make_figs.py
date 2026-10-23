@@ -1,8 +1,8 @@
-"""Generate the paper figures from the experiment artifacts in results/.
+"""Generate HAR plots from the archived experiment artifacts in results/.
 
 Rerun after refreshing results:  python figures/make_figs.py
 Reads:  results/*.json / *.csv
-Writes: figures/*.pdf  (vector, sized for IEEE \columnwidth ~= 3.5 in)
+Writes: figures/*.pdf  (sized for a 3.5-inch column)
 """
 import csv
 import json
@@ -56,22 +56,19 @@ def confusion_2d():
 
 def fl_baselines():
     d = json.load(open(RES / "phase1_baselines.json"))
-    series = [("FedAvg", "fedavg", BLUE), ("FedBN", "fedbn", ORANGE),
-              ("Clustered FedBN", "cluster_fedbn", GREEN)]
-    fig, ax = plt.subplots(figsize=(3.5, 2.3))
-    cent = d["centralized"]["best_acc"]
-    ax.axhline(cent, color=GRAY, lw=1, ls="--")
-    ax.text(50, cent + 0.012, f"Centralized best {cent*100:.1f}%",
-            ha="right", fontsize=7, color=GRAY)
+    series = [("Global averaging", "fedavg", BLUE),
+              ("Partial-BN exclusion", "fedbn", ORANGE),
+              ("Cluster-balanced averaging", "cluster_fedbn", GREEN)]
+    fig, ax = plt.subplots(figsize=(3.5, 2.6))
     for name, key, c in series:
         h = d[key]["sampled_history"]
         r = [p["round"] for p in h]
-        a = [p["test_acc"] for p in h]
+        a = [100 * p["test_acc"] for p in h]
         ax.plot(r, a, color=c, lw=1.6, marker="o", ms=3, label=name)
     ax.set_xlabel("Communication round")
-    ax.set_ylabel("Test accuracy")
+    ax.set_ylabel("Pooled test accuracy (%)")
+    ax.set_title("10-class HAR; pooled BN calibration", fontsize=8)
     ax.set_xlim(0, 52)
-    ax.set_ylim(0.35, 0.95)
     ax.legend(fontsize=7, loc="lower right", framealpha=0.9)
     fig.tight_layout(pad=0.3)
     fig.savefig(OUT / "fl_baselines.pdf")
