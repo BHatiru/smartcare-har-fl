@@ -3,9 +3,9 @@
 This repository holds the artifacts for the human activity recognition (HAR) and federated-learning (FL) experiments in the following manuscript:
 
 > **Activity-Aware Federated Multimodal IoMT for Continuous Patient Monitoring**
-> T. Tursynbekov, B. Bodaubay, B. Ongdassynov, T. Bayan, A. Yazici (2026 manuscript).
+> B. Bodaubay\*, T. Tursynbekov\*, B. Ongdassynov, T. Bayan, A. Yazici (2026 manuscript; \*equal contribution and shared first authorship).
 > School of Computing and Artificial Intelligence (SCAI), Nazarbayev University, Astana, Kazakhstan. T. Bayan is also affiliated with the University of Manchester, Manchester, United Kingdom.
-> Research project SEDS2024025, "Smart-Care: Innovative Multi-Sensor Technology for Elderly and Disabled Health Management".
+> Supported by the Ministry of Science and Higher Education of the Republic of Kazakhstan, grant AP23487613, "Smart-Care: Innovative Multi-Sensor Technology for Elderly and Disabled Health Management".
 
 It contains:
 
