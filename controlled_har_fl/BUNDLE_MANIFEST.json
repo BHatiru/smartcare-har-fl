@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "snapshot": "HAR/FL RTX5080 lab handoff 2026-10-24",
+  "created_utc": "2026-10-24T11:40:26.465871+00:00",
+  "files": {
+    "demo1_fed_skeleton/__init__.py": {
+      "sha256": "2d3be1c4340e952dc3a8e037399d3c3be5aa5d07d668eaac70a7c45cdecebbd1",
+      "bytes": 61
+    },
+    "demo1_fed_skeleton/models/__init__.py": {
+      "sha256": "b8eaa18294e593fb50aaa8fea9e8d4505181fe35a4118265e8f4773504d2b623",
+      "bytes": 21
+    },
+    "demo1_fed_skeleton/models/stgcn.py": {
+      "sha256": "88f3196f66868b6e4e2bc7a0251336b882239de1a19d0626308da058213982ce",
+      "bytes": 13634
+    },
+    "demo1_fed_skeleton/corrected_fl.py": {
+      "sha256": "f514f32129f8a4aa66f736bab6354c5fe9ba619bd3833162ee66d1ff4edf7ffd",
+      "bytes": 18806
+    },
+    "demo1_fed_skeleton/development_fl.py": {
+      "sha256": "f243ae3691d1c32d4d32632b6cf182f209b3823f0fc8a800c5c1ce3fa535a1b4",
+      "bytes": 20728
+    },
+    "demo1_fed_skeleton/prepare_medical_data.py": {
+      "sha256": "9800f4c5cb7f75be31890d368693b5a91da5b6d2eaf05b53c97fcfffec3b859a",
+      "bytes": 12472
+    },
+    "demo1_fed_skeleton/prepare_corrected_fl.py": {
+      "sha256": "14f36e1e01d10b8daba51a65378fcbbc3163af3a74df69c82d20be4b0db70796",
+      "bytes": 8406
+    },
+    "demo1_fed_skeleton/prepare_development_fl.py": {
+      "sha256": "28081f3910018dd849660a5c87c4a2f0643e0087216b5bf4273474b89e9c5a12",
+      "bytes": 7510
+    },
+    "demo1_fed_skeleton/test_corrected_fl.py": {
+      "sha256": "caa9a08c81210ffa64e481e7ad13cfef7054b8ebdca3a5f651b63873d1a5eb2a",
+      "bytes": 11322
+    },
+    "demo1_fed_skeleton/test_development_fl.py": {
+      "sha256": "2afa2f36e3bd0a18d693cd36bb209af6064d17da2d04d98d6b56e5bb2ef508e2",
+      "bytes": 7950
+    },
+    "demo1_fed_skeleton/test_resumable_fl.py": {
+      "sha256": "28078010410ee13be51d0e711d04414dd6692e91a69ee2d602765f9ec96a0433",
+      "bytes": 4549
+    },
+    "demo1_fed_skeleton/data/nturgbd/ntu60_hrnet.pkl": {
+      "sha256": "953836d9dcae0b139ba524cee5003346c5cb4cbb26b0371cbf927f0cfa383c6a",
+      "bytes": 705401771
+    },
+    "demo1_fed_skeleton/data/fed_medical_2d/centralized/test.npz": {
+      "sha256": "61e5f03c70304aef7a6291e2b9d40536113bc2641754b6e2e9fe6d21f86f5be2",
+      "bytes": 38812828
+    },
+    "handoffs/FL_LAB_5080_20261024.md": {
+      "sha256": "9db80316a61685a96cc1dd3d4d80f1c30257084ec52a121131a62c82047d046c",
+      "bytes": 16801
+    },
+    "experiments/har_fl_repair_20261001/bootstrap_windows_pc.ps1": {
+      "sha256": "7dbed3bb5a6a09eb5749ca9ccddf8d3e38c4043ea3831ffbb350624a0056828c",
+      "bytes": 4463
+    },
+    "experiments/har_fl_repair_20261001/inspect_windows_pc.ps1": {
+      "sha256": "b0171f7678bd831326dfdf3313a903bdbccff0a667410032b8882f8aac51fcf0",
+      "bytes": 2755
+    },
+    "experiments/har_fl_repair_20261001/device_probe.py": {
+      "sha256": "c596e28572a810a36c73b1622454013ee0212fc777927edd126d7982d65f0926",
+      "bytes": 2222
+    },
+    "experiments/har_fl_repair_20261001/run_pilot.ps1": {
+      "sha256": "f91191b3d69c6c204c3bad831e0448a6a23fcb5aef552ebe24de1b0cc7c5b53e",
+      "bytes": 1013
+    },
+    "experiments/har_fl_repair_20261001/setup_pc.ps1": {
+      "sha256": "2e03517bea97b3698e7ddaf4c2ea2cf85333857ad522667ff14f4a32061453a2",
+      "bytes": 1554
+    },
+    "experiments/har_fl_repair_20261001/verify_pilot.py": {
+      "sha256": "bcdb2b52864fbda963d06e1f599911aa60f04ded815652da8ef1a9bcd60a4d9b",
+      "bytes": 9339
+    },
+    "experiments/har_fl_repair_20261001/run_background_fl.py": {
+      "sha256": "7ddd0425d6817e14b591e737d01d24f9e1a2eaa46330053d20d35ab4041c8ea3",
+      "bytes": 12789
+    },
+    "experiments/har_fl_repair_20261001/bind_legacy_test.py": {
+      "sha256": "0f3f4cc5f3e1de905489ba984aba7c35c3dd9b3a673f1591fa532b3551f4ff4d",
+      "bytes": 2243
+    },
+    "experiments/har_fl_repair_20261001/recovered_source.json": {
+      "sha256": "951223b4208ba52d4dc214191d5d182433bccbdf95f1add7f6a1265407debe01",
+      "bytes": 532
+    },
+    "experiments/har_fl_repair_20261001/legacy_test_binding.json": {
+      "sha256": "ed3e9f4c11923b0e538bba9e670891bdbe0b78f24e1e7454e7b08d8b93bfbf87",
+      "bytes": 598
+    },
+    "experiments/har_fl_repair_20261001/legacy_test_identities.csv": {
+      "sha256": "d4587863c1161b5c9148aa5fc51497d86887d93fc381c279fb7ef7a10dc75ece",
+      "bytes": 130419
+    },
+    "experiments/har_fl_repair_20261001/PILOT_RESULTS.txt": {
+      "sha256": "96e426af1d4b0680b33b8d2f51bc313d66b68627e83c1ef7673d8fc7afed3f92",
+      "bytes": 4571
+    },
+    "experiments/har_fl_repair_20261001/pilot_summary.json": {
+      "sha256": "e9fef4c415af41b363a8d9cad163be7621f70a52f3a57594be33403a821218a7",
+      "bytes": 29304
+    },
+    "experiments/har_fl_repair_20261001/pilot_data/train.npz": {
+      "sha256": "bee98dc81a5ebdc614cb9bd4021202628b8511eb37dd5cc9df3c10cbb07de09a",
+      "bytes": 2800274
+    },
+    "experiments/har_fl_repair_20261001/pilot_data/development.npz": {
+      "sha256": "1f03f95ced0163bd41222b41a533b5f340483acf04f0789b0157ec6f1808e944",
+      "bytes": 1283961
+    },
+    "experiments/har_fl_repair_20261001/pilot_data/protocol.json": {
+      "sha256": "c77c241fb2a6e30c24df39f7ad985e9ed62f813a36e62a4cd32dba7596b3c2cb",
+      "bytes": 7678
+    },
+    "experiments/har_fl_repair_20261001/pilot_data/split_manifest.json": {
+      "sha256": "273694cbed750acef6f8a0b7378f33e5dd28a1813a4fcff978d91d14170a3ace",
+      "bytes": 311569
+    },
+    "experiments/har_fl_repair_20261001/full_development_data/train.npz": {
+      "sha256": "ec2ef2cc4d8742edd4b383e83996d3c69ae8a14ba4dddde8bb159e1fa3355ce3",
+      "bytes": 70642895
+    },
+    "experiments/har_fl_repair_20261001/full_development_data/development.npz": {
+      "sha256": "a67d64b2fc645e96082cd310ccb6b4c5ca45a1b1b02e6c3491bfabc8a822030c",
+      "bytes": 19755735
+    },
+    "experiments/har_fl_repair_20261001/full_development_data/protocol.json": {
+      "sha256": "5038bcbf4817633e42e22677ba964dbc3ab1516e7db8acd0bf0fee6bd64cbacb",
+      "bytes": 7860
+    },
+    "experiments/har_fl_repair_20261001/full_development_data/split_manifest.json": {
+      "sha256": "b4ac86f85840ce1fa4fc899262a625338c070cb29acf70d99d55fc36d2fd8f35",
+      "bytes": 311569
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/centralized/round_003.json": {
+      "sha256": "88376aa8bf1caa51681c94dfca179aabbb9b38f27398dbf29c3ffede3f39b98e",
+      "bytes": 210364
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/local/round_003.json": {
+      "sha256": "d44d6044597d60b570f1a58f33e2ff220839085eb317718a9545dd05ce6b8380",
+      "bytes": 209501
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/fedavg/round_003.json": {
+      "sha256": "6faf4c9987c3278548d9bfe4f1d3a581ef6511f52e2b7b5e1f34db81ccca14f3",
+      "bytes": 207541
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/fedbn/round_003.json": {
+      "sha256": "0b258b834724f52a610e9b85ae212812c7abcfde3ea1c617bd8e7f1b62333d84",
+      "bytes": 207737
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/fedprox/round_003.json": {
+      "sha256": "86e4a2d6ca2a005eff13196b69212d6bcfc67ceac23da0b87c42c0205e8c2731",
+      "bytes": 206106
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/status.json": {
+      "sha256": "d6bd422601ca2e1aca288dd7b9f571d12b3b4c36bf12804216094757f1aa1c3a",
+      "bytes": 696
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/job.json": {
+      "sha256": "035c70ac280bd1b7e2dceb6444cd798b0254a740bc11ca48de1fc3ea7e768858",
+      "bytes": 1416
+    },
+    "experiments/har_fl_repair_20261001/overnight_cpu_20261001/code_manifest.json": {
+      "sha256": "41eba37d10162ef58473551dc74baeb1f572c25aee2d8e3fe82a23e0a1201bf6",
+      "bytes": 1343
+    },
+    "experiments/har_fl_lab_20261024/verify_bundle.py": {
+      "sha256": "ee5aa0658021bde50ffd742c952839ff8905afad9f79da7a5f359034c9dba986",
+      "bytes": 1935
+    },
+    "experiments/har_fl_lab_20261024/gpu_preflight.py": {
+      "sha256": "b98c3201546cbe3fb5e7484cdf605b04ade08ad8874aa4807bb7fec789ac6ab8",
+      "bytes": 4977
+    },
+    "experiments/har_fl_lab_20261024/build_bundle.py": {
+      "sha256": "9c9f063b5ae1d92d78ef24e3c09eeb0904b766fedab6e8f4b466386ea36fe821",
+      "bytes": 6233
+    },
+    "experiments/har_fl_lab_20261024/START_HERE.md": {
+      "sha256": "d4ef0d0792b638e23cf3464b9be9665d9aa2fc3855cc57d38abbd03cdefa4fd2",
+      "bytes": 1604
+    },
+    "experiments/har_fl_lab_20261024/CODEX_START_PROMPT.txt": {
+      "sha256": "f598b0284d9e1c4263eb8a43c595cc4d9d0a4cc3f2a0c7575e7081bb15ad53da",
+      "bytes": 1129
+    },
+    "experiments/har_fl_lab_20261024/LAB_AGENT_RULES.md": {
+      "sha256": "7b8d40e0355a6f92f685d1e0a0386983c5bad1eee79d4ef98f5f2d3b21947cff",
+      "bytes": 1966
+    },
+    "START_HERE.md": {
+      "sha256": "d4ef0d0792b638e23cf3464b9be9665d9aa2fc3855cc57d38abbd03cdefa4fd2",
+      "bytes": 1604
+    },
+    "CODEX_START_PROMPT.txt": {
+      "sha256": "f598b0284d9e1c4263eb8a43c595cc4d9d0a4cc3f2a0c7575e7081bb15ad53da",
+      "bytes": 1129
+    },
+    "AGENTS.md": {
+      "sha256": "7b8d40e0355a6f92f685d1e0a0386983c5bad1eee79d4ef98f5f2d3b21947cff",
+      "bytes": 1966
+    },
+    ".gitignore": {
+      "sha256": "ff0c85e38dcef7edba61916cbf292705ffa961c378a75a869850d18fc3f5529c",
+      "bytes": 110
+    },
+    "CHECK_PC.cmd": {
+      "sha256": "dc50e8b3b9791e049dabc541fcb01def1273ec705730204149b6afadbbe1c370",
+      "bytes": 199
+    }
+  },
+  "scope": "Selected current research source, full HAR annotations, prepared train/development and legacy test identities. No repository history, credentials, manuscript or vitals data.",
+  "gpu_validated_on_source_machine": false,
+  "final_test_evaluator_complete": false,
+  "resumable_gpu_queue_complete": false
+}

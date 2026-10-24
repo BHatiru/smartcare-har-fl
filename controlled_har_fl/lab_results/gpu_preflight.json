@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "scope": "Synthetic kernel/backward compatibility probe of the actual backbone; includes gradient checks; not full-data throughput, convergence or test accuracy.",
+  "device": "cuda",
+  "parameters": 444507,
+  "input_shape": [
+    16,
+    2,
+    100,
+    17,
+    3
+  ],
+  "dtype": "torch.float32",
+  "steps": 5,
+  "step_seconds": [
+    0.042316786013543606,
+    0.04386817663908005,
+    0.044746994972229004,
+    0.04326643329113722,
+    0.04370784293860197
+  ],
+  "median_step_seconds": 0.04370784293860197,
+  "finite_losses": [
+    4.7061638832092285,
+    3.8157877922058105,
+    5.957588195800781,
+    4.6304097175598145,
+    3.9692740440368652
+  ],
+  "weight_update_verified": true,
+  "deterministic_algorithms": true,
+  "python": "3.12.3",
+  "platform": "Linux-6.17.0-22-generic-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu128",
+  "numpy": "2.4.4",
+  "torch_cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "compiled_cuda_architectures": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "peak_allocated_bytes": 1277106688,
+  "peak_reserved_bytes": 1382023168,
+  "gpu_total_memory_bytes": 16603086848,
+  "model_source_sha256": "88f3196f66868b6e4e2bc7a0251336b882239de1a19d0626308da058213982ce"
+}

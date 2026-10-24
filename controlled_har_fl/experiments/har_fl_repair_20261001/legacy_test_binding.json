@@ -1,0 +1,10 @@
+{
+  "status": "exact_match",
+  "source_sha256": "953836d9dcae0b139ba524cee5003346c5cb4cbb26b0371cbf927f0cfa383c6a",
+  "legacy_test_npz_sha256": "61e5f03c70304aef7a6291e2b9d40536113bc2641754b6e2e9fe6d21f86f5be2",
+  "comparison": "Elementwise exact equality in original order for every preprocessed tensor and label.",
+  "samples": 4125,
+  "tensor_and_label_mismatches": [],
+  "scope": "Binds test sample/performer identity; does not prove historical training lineage or remove test selection.",
+  "identity_csv_sha256": "d4587863c1161b5c9148aa5fc51497d86887d93fc381c279fb7ef7a10dc75ece"
+}

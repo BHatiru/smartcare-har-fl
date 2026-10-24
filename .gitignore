@@ -4,3 +4,7 @@ data/
 outputs/
 .venv/
 *.npz
+
+# Saved predictions and cohort allocations; these do not contain input skeletons.
+!controlled_har_fl/lab_results/final_test/*.npz
+!controlled_har_fl/lab_results/primary/seed_*/*/best_development.npz

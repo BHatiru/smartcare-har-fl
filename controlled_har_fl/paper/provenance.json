@@ -1,0 +1,36 @@
+{
+  "benchmark": "NTU RGB+D 60, medical15, COCO-17, official cross-subject test subset",
+  "methods": [
+    "centralized",
+    "local",
+    "fedavg",
+    "fedbn",
+    "fedprox"
+  ],
+  "model_seeds": [
+    42,
+    43,
+    44
+  ],
+  "partition_seed": 42,
+  "test_allocation_seed": 20261024,
+  "train": 7696,
+  "development": 2336,
+  "test": 4125,
+  "rounds": 50,
+  "selection": "Pooled development macro-F1; lower CE; earliest round",
+  "source_artifacts": {
+    "contract": "a5caf47613b3e66898846f22ce27725c1800a47bbd7e0cf04353f808c6f3fab8",
+    "selection": "64ef1c71ade61fceacc1533a6d293dbfeb3a4d11ef639d543a0b9f134d56d4ac",
+    "final_results": "eb69650b72aa346ba218218e0b46bdf31c8aa1229314336707ded58a6ee3cb6f"
+  },
+  "independent_metric_audit_sha256": "06053d9a2893eca94d676dfdbcb4b182e9562a9a31bd0f4fb16a85195904f3ad",
+  "manuscript_assets": {
+    "results_table.tex": "433490f1ce5b028d5f10f6c468d9666e477486ecd48c486b44f251ad39f5132a",
+    "method_summary.csv": "80b449bb94d9646c86d9ccf4f8ff83f33881e23d37349f816a86b9e747ff5903",
+    "seed_metrics.csv": "e44629bd76aafa3c5de7882a00a83d1ca619d606b33a9747863d275662853f71",
+    "development_curves.json": "8353b905edc665baae4c2bb43b3e102a93a8b23c2c494568d1ceb8fbd7374ffd",
+    "development_curves.pdf": "31b6c48bc4bddd8ed57b146135cb41aadd2ad60d7156c99e79363fcce425041d"
+  },
+  "manuscript_assets_encoding": "Git-stored bytes; repository attributes normalize text line endings."
+}

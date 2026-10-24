@@ -1,0 +1,3042 @@
+### run 1 t=3 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            15.7     14.2     20.4     63.6   72
+  recog           64.5     63.5     67.7     15.5   11
+  frame           25.6     14.2     78.3     39.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 39.1
+  last prediction: touch back (84%)
+### run 2 t=6 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            16.0     14.3     22.6     62.4   72
+  recog           63.5     63.0     65.8     15.7   11
+  frame           25.7     14.3     77.3     38.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 38.9
+  last prediction: touch back (84%)
+### run 3 t=9 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            16.2     14.3     21.7     61.9   72
+  recog           64.6     63.6     68.2     15.5   11
+  frame           26.0     14.8     78.0     38.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 38.4
+  last prediction: touch back (84%)
+### run 4 t=12 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            15.9     14.2     21.1     62.8   72
+  recog           63.1     62.6     65.1     15.9   11
+  frame           25.6     14.3     76.8     39.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 39.1
+  last prediction: touch back (84%)
+### run 5 t=14 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            16.4     14.5     22.9     60.9   72
+  recog           64.8     63.8     68.0     15.4   11
+  frame           26.3     16.4     79.7     38.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 38.0
+  last prediction: touch back (84%)
+### run 6 t=17 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            16.8     15.0     21.7     59.7   72
+  recog           66.0     65.4     71.0     15.2   11
+  frame           26.8     17.8     81.1     37.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 37.3
+  last prediction: touch back (84%)
+### run 7 t=20 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            17.4     15.7     22.3     57.5   72
+  recog           68.2     67.6     70.5     14.7   11
+  frame           27.8     19.0     83.5     35.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 35.9
+  last prediction: touch back (84%)
+### run 8 t=23 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            19.6     18.9     32.9     50.9   72
+  recog           83.6     76.0    126.5     12.0   11
+  frame           32.4     19.9     97.5     30.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 30.8
+  last prediction: touch back (84%)
+### run 9 t=26 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            18.1     15.6     26.9     55.2   72
+  recog           72.5     69.5     85.2     13.8   11
+  frame           29.2     18.7     92.1     34.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 34.3
+  last prediction: touch back (84%)
+### run 10 t=29 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            19.6     19.0     30.7     51.0   72
+  recog           69.9     67.9     81.9     14.3   11
+  frame           30.3     21.6     84.9     33.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 33.0
+  last prediction: touch back (84%)
+### run 11 t=32 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            19.5     20.0     25.0     51.4   72
+  recog           71.6     71.7     80.8     14.0   11
+  frame           30.4     21.5     92.3     32.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 32.9
+  last prediction: touch back (84%)
+### run 12 t=35 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.3     20.5     34.6     49.4   72
+  recog           72.4     69.7     81.7     13.8   11
+  frame           31.3     21.5     93.1     31.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 31.9
+  last prediction: touch back (84%)
+### run 13 t=38 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            19.8     20.5     27.6     50.4   72
+  recog           73.8     70.9     88.7     13.5   11
+  frame           31.1     21.6     95.8     32.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 32.1
+  last prediction: touch back (84%)
+### run 14 t=42 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.7     21.5     29.3     48.2   72
+  recog           68.4     68.1     72.8     14.6   11
+  frame           31.2     21.6     90.0     32.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 32.1
+  last prediction: touch back (84%)
+### run 15 t=45 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.7     21.6     25.6     48.4   72
+  recog           71.4     68.8     85.9     14.0   11
+  frame           31.6     21.6     91.4     31.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 31.7
+  last prediction: touch back (84%)
+### run 16 t=48 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.3     21.4     30.8     49.4   72
+  recog           74.1     71.7     83.9     13.5   11
+  frame           31.6     21.6     94.8     31.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 31.7
+  last prediction: touch back (84%)
+### run 17 t=51 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.8     20.1     34.0     48.0   72
+  recog           74.0     72.7     87.1     13.5   11
+  frame           32.1     21.7     91.3     31.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 31.1
+  last prediction: touch back (84%)
+### run 18 t=54 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.2     21.5     33.6     47.2   72
+  recog           78.3     78.6     88.5     12.8   11
+  frame           33.2     21.7     98.7     30.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 30.2
+  last prediction: touch back (84%)
+### run 19 t=58 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.5     21.6     25.0     48.8   72
+  recog           78.8     84.7     87.0     12.7   11
+  frame           32.5     21.6    100.8     30.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 30.7
+  last prediction: touch back (84%)
+### run 20 t=61 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.1     19.6     29.6     49.7   72
+  recog           78.6     85.2     88.4     12.7   11
+  frame           32.2     21.6    105.2     31.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 31.1
+  last prediction: touch back (84%)
+### run 21 t=64 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.4     21.6     33.9     44.7   72
+  recog           72.2     72.0     79.0     13.9   11
+  frame           33.4     21.8     90.1     29.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.9
+  last prediction: touch back (84%)
+### run 22 t=68 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.9     21.6     34.4     45.7   72
+  recog           75.4     72.8     87.9     13.3   11
+  frame           33.4     21.7     95.5     29.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.9
+  last prediction: touch back (84%)
+### run 23 t=71 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            20.8     18.4     33.9     48.0   72
+  recog           79.1     81.4     90.3     12.6   11
+  frame           32.9     21.7     97.8     30.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 30.4
+  last prediction: touch back (84%)
+### run 24 t=74 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.7     21.7     32.5     46.1   72
+  recog           77.3     78.2     85.6     12.9   11
+  frame           33.5     21.7     97.8     29.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.8
+  last prediction: touch back (84%)
+### run 25 t=78 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.9     21.6     32.3     45.6   72
+  recog           78.8     80.6     87.5     12.7   11
+  frame           34.0     21.7    105.1     29.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.4
+  last prediction: touch back (84%)
+### run 26 t=81 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.1     20.6     34.7     47.5   72
+  recog           80.1     83.6     85.5     12.5   11
+  frame           33.3     21.7    100.0     30.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 30.0
+  last prediction: touch back (84%)
+### run 27 t=84 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.2     20.5     34.0     47.1   72
+  recog           81.6     86.5     88.7     12.3   11
+  frame           33.7     21.6    105.2     29.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.7
+  last prediction: touch back (84%)
+### run 28 t=88 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.3     21.7     32.1     47.0   72
+  recog           82.4     84.0     91.3     12.1   11
+  frame           33.9     21.7    106.1     29.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.5
+  last prediction: touch back (84%)
+### run 29 t=91 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.4     21.5     34.1     46.8   72
+  recog           83.7     87.4     92.5     12.0   11
+  frame           34.2     21.6    107.1     29.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.3
+  last prediction: touch back (84%)
+### run 30 t=95 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.8     21.7     35.5     44.0   72
+  recog           77.9     77.8     88.2     12.8   11
+  frame           34.7     22.1     98.8     28.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.8
+  last prediction: touch back (84%)
+### run 31 t=98 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.3     21.7     37.7     44.9   72
+  recog           78.6     73.9     87.9     12.7   11
+  frame           34.3     21.7    101.0     29.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.2
+  last prediction: touch back (84%)
+### run 32 t=102 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.6     21.6     32.4     46.4   72
+  recog           78.7     81.8     89.2     12.7   11
+  frame           33.6     21.7    100.0     29.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.8
+  last prediction: touch back (84%)
+### run 33 t=105 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.6     21.7     32.6     46.3   72
+  recog           82.6     84.4     93.3     12.1   11
+  frame           34.2     21.7    108.1     29.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.2
+  last prediction: touch back (84%)
+### run 34 t=108 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.9     21.7     32.3     45.6   72
+  recog           80.4     82.4     87.9     12.4   11
+  frame           34.2     21.7    104.2     29.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.2
+  last prediction: touch back (84%)
+### run 35 t=112 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.5     21.7     33.8     44.5   72
+  recog           77.0     73.8     88.2     13.0   11
+  frame           34.2     21.9     96.0     29.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.2
+  last prediction: touch back (84%)
+### run 36 t=115 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.2     21.7     32.4     45.1   72
+  recog           80.6     83.9     88.8     12.4   11
+  frame           34.5     21.7    107.7     29.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.0
+  last prediction: touch back (84%)
+### run 37 t=119 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.6     38.8     43.1   72
+  recog           78.8     79.3     89.3     12.7   11
+  frame           35.2     21.7    101.7     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 38 t=122 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.6     21.6     37.1     44.3   72
+  recog           80.2     81.6     87.7     12.5   11
+  frame           34.8     21.7     99.8     28.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.7
+  last prediction: touch back (84%)
+### run 39 t=126 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.9     21.7     34.5     45.6   72
+  recog           83.2     81.4     88.1     12.0   11
+  frame           34.7     21.7    107.0     28.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.8
+  last prediction: touch back (84%)
+### run 40 t=129 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.7     36.0     42.6   72
+  recog           78.1     76.1     88.8     12.8   11
+  frame           35.4     21.8    100.0     28.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.2
+  last prediction: touch back (84%)
+### run 41 t=133 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.7     21.6     36.2     44.0   72
+  recog           81.6     86.1     88.3     12.3   11
+  frame           35.2     21.6    107.8     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 42 t=136 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.0     21.6     34.0     45.5   72
+  recog           82.1     86.6     89.7     12.2   11
+  frame           34.5     21.7    103.2     29.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.0
+  last prediction: touch back (84%)
+### run 43 t=140 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     34.3     42.9   72
+  recog           78.1     74.6     87.8     12.8   11
+  frame           35.2     21.7    104.3     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 44 t=143 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            21.5     21.7     32.8     46.6   72
+  recog           83.1     87.3     88.6     12.0   11
+  frame           34.2     21.7    106.8     29.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.3
+  last prediction: touch back (84%)
+### run 45 t=147 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.1     21.6     34.9     45.3   72
+  recog           80.3     83.5     88.2     12.4   11
+  frame           34.4     21.7    102.9     29.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 29.1
+  last prediction: touch back (84%)
+### run 46 t=150 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.1     21.6     33.8     45.2   72
+  recog           81.9     85.8     88.4     12.2   11
+  frame           34.7     21.6    108.0     28.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.9
+  last prediction: touch back (84%)
+### run 47 t=154 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     33.4     43.4   72
+  recog           82.2     80.2     90.9     12.2   11
+  frame           35.6     21.7    109.3     28.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.1
+  last prediction: touch back (84%)
+### run 48 t=157 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.5     21.6     34.8     44.4   72
+  recog           83.8     85.6     92.2     11.9   11
+  frame           35.3     21.7    108.4     28.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.3
+  last prediction: touch back (84%)
+### run 49 t=161 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     33.8     43.0   72
+  recog           77.8     76.6     87.1     12.9   11
+  frame           35.2     21.7     99.8     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 50 t=164 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.9     21.6     33.6     43.7   72
+  recog           81.9     87.2     89.0     12.2   11
+  frame           35.4     21.7    108.9     28.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.2
+  last prediction: touch back (84%)
+### run 51 t=168 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.4     21.7     37.1     44.6   72
+  recog           83.3     85.2     92.4     12.0   11
+  frame           35.2     21.7    108.0     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 52 t=172 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.0     21.6     33.5     43.4   72
+  recog           82.0     83.4     96.5     12.2   11
+  frame           35.6     21.7    108.8     28.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.1
+  last prediction: touch back (84%)
+### run 53 t=175 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     35.7     43.3   72
+  recog           79.9     80.0     91.5     12.5   11
+  frame           35.3     22.6    107.5     28.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.3
+  last prediction: touch back (84%)
+### run 54 t=179 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     35.3     43.4   72
+  recog           81.4     81.7     88.0     12.3   11
+  frame           35.5     21.7    104.9     28.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.2
+  last prediction: touch back (84%)
+### run 55 t=182 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     36.1     43.2   72
+  recog           81.5     80.8     88.2     12.3   11
+  frame           35.6     22.9    104.5     28.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.1
+  last prediction: touch back (84%)
+### run 56 t=186 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.5     21.7     31.4     44.5   72
+  recog           80.2     83.3     89.1     12.5   11
+  frame           34.7     21.7    108.3     28.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.8
+  last prediction: touch back (84%)
+### run 57 t=189 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.6     21.7     37.1     44.3   72
+  recog           82.8     84.2     91.3     12.1   11
+  frame           35.2     21.7    105.1     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 58 t=193 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     34.5     42.7   72
+  recog           82.2     87.1     90.0     12.2   11
+  frame           36.0     22.4    108.7     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 59 t=196 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.9     21.7     35.7     43.6   72
+  recog           80.6     87.2     92.5     12.4   11
+  frame           35.3     22.5    109.1     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 60 t=200 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.6     21.6     32.9     44.2   72
+  recog           86.0     87.7     92.4     11.6   11
+  frame           35.8     21.7    109.7     28.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.0
+  last prediction: touch back (84%)
+### run 61 t=204 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.7     36.8     42.4   72
+  recog           84.5     86.6     93.3     11.8   11
+  frame           36.5     22.0    108.4     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 62 t=207 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.7     21.7     36.5     44.0   72
+  recog           81.2     83.1     87.6     12.3   11
+  frame           35.2     21.8    108.4     28.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.4
+  last prediction: touch back (84%)
+### run 63 t=211 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     33.1     42.1   72
+  recog           83.0     87.4     91.5     12.0   11
+  frame           36.5     21.8    109.1     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 64 t=214 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.7     21.7     37.2     44.0   72
+  recog           80.3     81.4     87.2     12.5   11
+  frame           35.0     21.8    102.6     28.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.6
+  last prediction: touch back (84%)
+### run 65 t=218 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.6     35.7     42.9   72
+  recog           85.3     87.2     91.5     11.7   11
+  frame           36.4     21.7    109.1     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 66 t=222 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     34.5     43.1   72
+  recog           85.3     87.5     93.0     11.7   11
+  frame           36.3     21.7    109.3     27.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.6
+  last prediction: touch back (84%)
+### run 67 t=225 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     34.1     42.8   72
+  recog           82.9     87.3     93.3     12.1   11
+  frame           36.0     21.8    109.1     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 68 t=229 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     34.5     43.2   72
+  recog           82.3     86.2     92.1     12.1   11
+  frame           35.8     22.0    108.1     28.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.0
+  last prediction: touch back (84%)
+### run 69 t=232 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.9     21.7     34.5     43.7   72
+  recog           85.6     87.2     90.1     11.7   11
+  frame           36.0     21.7    109.1     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 70 t=236 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.7     35.8     42.3   72
+  recog           82.2     87.2     93.5     12.2   11
+  frame           36.2     21.8    108.9     27.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.6
+  last prediction: touch back (84%)
+### run 71 t=240 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.7     39.4     42.4   72
+  recog           81.5     82.8     89.8     12.3   11
+  frame           36.0     22.5    106.8     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 72 t=243 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     33.7     43.1   72
+  recog           84.0     86.9     90.8     11.9   11
+  frame           36.1     21.8    108.6     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 73 t=247 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     37.4     41.8   72
+  recog           84.8     87.3     96.3     11.8   11
+  frame           36.9     22.4    113.8     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 74 t=251 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     33.1     43.2   72
+  recog           83.3     86.9     90.1     12.0   11
+  frame           35.9     21.7    108.6     27.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.9
+  last prediction: touch back (84%)
+### run 75 t=254 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.7     36.9     42.6   72
+  recog           87.3     86.8     92.4     11.5   11
+  frame           36.8     21.8    110.3     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 76 t=258 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     35.8     43.3   72
+  recog           84.1     87.6     92.9     11.9   11
+  frame           35.9     21.7    109.5     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 77 t=261 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.0     21.7     35.8     41.7   72
+  recog           83.5     87.2     89.9     12.0   11
+  frame           36.7     22.0    108.7     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 78 t=265 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     32.7     42.8   72
+  recog           82.4     87.0     94.8     12.1   11
+  frame           35.9     21.8    108.9     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 79 t=269 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     34.7     43.1   72
+  recog           84.8     87.5     91.9     11.8   11
+  frame           36.2     21.8    110.6     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.6
+  last prediction: touch back (84%)
+### run 80 t=272 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     32.1     42.9   72
+  recog           86.9     87.1     88.7     11.5   11
+  frame           36.6     21.8    108.9     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 81 t=276 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     34.0     43.4   72
+  recog           84.3     86.8     91.9     11.9   11
+  frame           35.9     21.8    108.5     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 82 t=280 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     36.3     41.9   72
+  recog           85.3     86.9     91.7     11.7   11
+  frame           36.9     21.9    108.8     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 83 t=283 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     35.7     41.9   72
+  recog           83.2     87.4     92.3     12.0   11
+  frame           36.6     21.7    109.6     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 84 t=287 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     34.8     42.3   72
+  recog           81.1     86.5     89.0     12.3   11
+  frame           36.1     21.7    108.5     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 85 t=291 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.6     35.8     42.6   72
+  recog           85.5     87.0     93.4     11.7   11
+  frame           36.5     21.7    110.5     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 86 t=294 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     34.8     42.2   72
+  recog           82.9     86.7     89.8     12.1   11
+  frame           36.4     23.7    108.4     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 87 t=298 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     35.0     43.4   72
+  recog           83.3     86.8     87.9     12.0   11
+  frame           35.8     21.7    108.7     27.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.9
+  last prediction: touch back (84%)
+### run 88 t=302 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.7     35.3     42.6   72
+  recog           86.9     87.8     93.7     11.5   11
+  frame           36.7     22.1    109.4     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 89 t=305 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.4     21.7     32.7     44.6   72
+  recog           86.8     87.0     95.3     11.5   11
+  frame           35.7     21.7    108.8     28.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.0
+  last prediction: touch back (84%)
+### run 90 t=309 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.6     35.1     42.9   72
+  recog           85.8     87.1     94.7     11.7   11
+  frame           36.4     21.7    109.1     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 91 t=312 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.6     36.1     41.9   72
+  recog           84.5     87.2     90.2     11.8   11
+  frame           36.8     21.7    109.1     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 92 t=316 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     37.7     43.2   72
+  recog           83.2     87.1     91.6     12.0   11
+  frame           35.9     21.7    108.8     27.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.9
+  last prediction: touch back (84%)
+### run 93 t=320 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.6     34.2     42.2   72
+  recog           87.2     87.3     98.2     11.5   11
+  frame           37.0     21.7    110.2     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 94 t=323 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     33.1     42.7   72
+  recog           85.6     86.8     90.5     11.7   11
+  frame           36.5     21.7    108.5     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 95 t=327 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     35.4     42.9   72
+  recog           85.2     87.4     92.6     11.7   11
+  frame           36.3     21.7    109.1     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 96 t=331 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.0     21.6     34.2     41.7   72
+  recog           82.4     86.9     87.2     12.1   11
+  frame           36.6     22.1    108.6     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 97 t=334 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     34.5     42.8   72
+  recog           87.6     87.0     93.9     11.4   11
+  frame           36.7     21.7    108.9     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 98 t=338 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.6     34.1     42.9   72
+  recog           85.1     87.2     93.1     11.7   11
+  frame           36.3     21.7    109.6     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 99 t=342 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.1     21.7     34.0     41.5   72
+  recog           83.8     87.2     91.2     11.9   11
+  frame           36.9     21.8    108.9     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 100 t=345 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.7     37.3     42.3   72
+  recog           85.0     88.1     92.7     11.8   11
+  frame           36.6     21.9    110.4     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 101 t=349 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.1     21.7     35.1     41.5   72
+  recog           82.0     87.2     89.3     12.2   11
+  frame           36.6     22.5    109.0     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 102 t=353 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     34.1     43.0   72
+  recog           84.2     87.3     92.2     11.9   11
+  frame           36.1     21.7    109.1     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 103 t=356 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     37.1     42.1   72
+  recog           84.9     87.2     92.2     11.8   11
+  frame           36.7     21.8    109.0     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 104 t=360 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     34.7     42.2   72
+  recog           88.2     86.9     92.3     11.3   11
+  frame           37.2     21.7    109.4     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 105 t=364 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     36.8     42.1   72
+  recog           84.4     86.6     87.8     11.8   11
+  frame           36.6     21.8    108.4     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 106 t=367 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     34.1     43.1   72
+  recog           86.2     87.4     93.6     11.6   11
+  frame           36.4     21.7    109.2     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 107 t=371 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     37.3     41.8   72
+  recog           84.3     87.4     90.1     11.9   11
+  frame           36.8     22.7    109.4     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 108 t=375 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.0     21.7     33.1     41.6   72
+  recog           84.7     86.8     90.4     11.8   11
+  frame           37.0     21.7    108.8     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 109 t=378 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.6     35.6     42.0   72
+  recog           87.8     88.6     94.9     11.4   11
+  frame           37.2     21.7    111.8     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 110 t=382 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     33.5     42.1   72
+  recog           83.9     87.4     92.2     11.9   11
+  frame           36.6     21.7    109.3     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 111 t=386 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.6     33.3     43.4   72
+  recog           86.5     87.8     94.9     11.6   11
+  frame           36.3     21.7    109.8     27.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.6
+  last prediction: touch back (84%)
+### run 112 t=389 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     35.7     42.0   72
+  recog           83.6     86.5     92.8     12.0   11
+  frame           36.6     22.6    108.5     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 113 t=393 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     34.4     41.8   72
+  recog           88.8     87.1    100.8     11.3   11
+  frame           37.5     21.8    108.8     26.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.7
+  last prediction: touch back (84%)
+### run 114 t=397 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.2     21.7     36.5     41.4   72
+  recog           84.4     86.7     91.0     11.8   11
+  frame           37.1     21.9    109.1     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 115 t=400 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     36.2     42.0   72
+  recog           84.2     87.1     93.6     11.9   11
+  frame           36.7     21.8    108.8     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 116 t=404 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.2     21.7     36.3     41.3   72
+  recog           86.0     86.8     94.7     11.6   11
+  frame           37.4     21.8    108.5     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 117 t=408 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.7     32.5     42.3   72
+  recog           85.4     86.9     92.8     11.7   11
+  frame           36.7     21.7    108.6     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 118 t=411 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     35.9     42.0   72
+  recog           86.0     87.0     97.4     11.6   11
+  frame           37.0     21.7    110.6     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 119 t=415 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.0     21.6     33.4     43.4   72
+  recog           81.3     82.5     87.5     12.3   11
+  frame           35.4     21.8    108.9     28.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.2
+  last prediction: touch back (84%)
+### run 120 t=419 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     36.7     41.9   72
+  recog           86.6     88.2     94.1     11.6   11
+  frame           37.1     22.1    111.6     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 121 t=422 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     35.7     41.9   72
+  recog           88.1     87.3     94.6     11.4   11
+  frame           37.3     23.1    109.0     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 122 t=426 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.0     21.7     35.7     41.6   72
+  recog           85.2     87.1     94.5     11.7   11
+  frame           37.0     21.8    109.1     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 123 t=430 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            22.8     21.6     33.7     43.9   72
+  recog           83.7     86.7     89.7     11.9   11
+  frame           35.6     21.7    108.4     28.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 28.1
+  last prediction: touch back (84%)
+### run 124 t=433 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     38.1     42.1   72
+  recog           88.7     87.8     92.5     11.3   11
+  frame           37.3     21.8    110.2     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 125 t=437 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.3     21.7     34.2     43.0   72
+  recog           83.1     86.9     89.2     12.0   11
+  frame           36.0     21.8    108.6     27.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.8
+  last prediction: touch back (84%)
+### run 126 t=441 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.6     35.9     42.3   72
+  recog           84.6     86.9     94.1     11.8   11
+  frame           36.6     22.0    109.2     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 127 t=445 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.1     21.7     37.1     41.5   72
+  recog           86.4     87.1     97.0     11.6   11
+  frame           37.3     21.9    109.0     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 128 t=448 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     35.3     43.1   72
+  recog           84.1     87.2     89.5     11.9   11
+  frame           36.1     21.8    109.3     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 129 t=452 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.7     32.8     42.6   72
+  recog           86.4     87.2     89.8     11.6   11
+  frame           36.7     21.8    109.0     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 130 t=456 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.0     21.7     34.0     41.7   72
+  recog           84.6     87.7     93.4     11.8   11
+  frame           36.9     22.9    109.4     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 131 t=459 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.1     21.7     32.0     43.4   72
+  recog           85.1     87.2     89.3     11.7   11
+  frame           36.1     21.8    109.1     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 132 t=463 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     34.5     42.2   72
+  recog           86.1     88.0     93.3     11.6   11
+  frame           36.9     23.4    109.9     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 133 t=467 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     35.6     41.8   72
+  recog           85.6     86.9     94.3     11.7   11
+  frame           37.0     22.0    108.6     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 134 t=470 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.3     21.7     35.5     41.2   72
+  recog           85.7     87.6     92.7     11.7   11
+  frame           37.4     22.2    109.3     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 135 t=474 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     34.8     43.2   72
+  recog           84.8     87.1     89.1     11.8   11
+  frame           36.1     21.8    108.7     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 136 t=478 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     36.5     42.7   72
+  recog           86.6     87.2     95.6     11.5   11
+  frame           36.7     21.7    110.7     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 137 t=481 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.6     33.9     42.3   72
+  recog           87.0     87.5    100.3     11.5   11
+  frame           36.9     22.0    109.6     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 138 t=485 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.0     21.7     33.6     41.6   72
+  recog           82.9     86.9     88.1     12.1   11
+  frame           36.7     22.7    108.7     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 139 t=489 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.1     21.7     35.5     41.5   72
+  recog           85.7     87.2     92.4     11.7   11
+  frame           37.2     21.7    109.1     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 140 t=492 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.6     34.2     42.2   72
+  recog           83.8     87.0     90.0     11.9   11
+  frame           36.5     21.7    108.6     27.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.4
+  last prediction: touch back (84%)
+### run 141 t=496 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.7     35.4     42.5   72
+  recog           82.0     86.9     91.5     12.2   11
+  frame           36.1     21.7    108.9     27.7   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.7
+  last prediction: touch back (84%)
+### run 142 t=500 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.4     21.7     35.6     41.0   72
+  recog           84.9     87.4     89.3     11.8   11
+  frame           37.3     21.8    109.1     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 143 t=504 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     33.8     42.0   72
+  recog           84.9     87.2     90.7     11.8   11
+  frame           36.8     21.8    108.9     27.2   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.2
+  last prediction: touch back (84%)
+### run 144 t=507 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     35.3     42.1   72
+  recog           86.4     87.6     89.2     11.6   11
+  frame           37.0     21.8    109.4     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 145 t=511 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.2     21.7     33.1     41.3   72
+  recog           85.6     87.0     93.2     11.7   11
+  frame           37.3     21.7    110.7     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 146 t=515 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     34.5     42.7   72
+  recog           83.4     86.8     91.8     12.0   11
+  frame           36.2     22.8    108.7     27.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.6
+  last prediction: touch back (84%)
+### run 147 t=518 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.9     21.7     36.6     40.1   72
+  recog           88.8     88.3     96.5     11.3   11
+  frame           38.5     22.3    110.8     26.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.0
+  last prediction: touch back (84%)
+### run 148 t=522 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     35.4     42.1   72
+  recog           87.4     87.7     92.5     11.4   11
+  frame           37.1     22.4    109.9     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 149 t=526 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.6     21.7     36.3     40.7   72
+  recog           85.5     87.2     91.3     11.7   11
+  frame           37.6     21.9    109.0     26.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.6
+  last prediction: touch back (84%)
+### run 150 t=529 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.4     21.7     37.3     40.9   72
+  recog           85.8     86.5     92.4     11.7   11
+  frame           37.5     22.1    108.4     26.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.6
+  last prediction: touch back (84%)
+### run 151 t=533 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.4     21.7     33.8     42.8   72
+  recog           86.3     86.8     89.2     11.6   11
+  frame           36.6     21.7    108.7     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 152 t=537 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.2     21.7     35.1     43.1   72
+  recog           86.4     86.9     94.6     11.6   11
+  frame           36.4     21.7    109.7     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 153 t=541 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.7     34.8     42.4   72
+  recog           87.4     87.2     94.9     11.4   11
+  frame           36.9     21.7    109.7     27.1   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.1
+  last prediction: touch back (84%)
+### run 154 t=544 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.2     21.7     37.5     41.4   72
+  recog           87.7     87.2     95.9     11.4   11
+  frame           37.6     22.4    110.2     26.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.6
+  last prediction: touch back (84%)
+### run 155 t=548 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     36.2     42.2   72
+  recog           88.6     87.6     93.3     11.3   11
+  frame           37.2     21.8    110.9     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 156 t=552 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     36.2     41.9   72
+  recog           87.6     87.0     92.3     11.4   11
+  frame           37.3     21.7    111.2     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 157 t=555 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.6     21.6     35.5     42.3   72
+  recog           87.9     87.6     95.1     11.4   11
+  frame           37.0     21.7    110.9     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 158 t=559 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.6     21.7     36.3     40.6   72
+  recog           85.8     86.7     89.9     11.7   11
+  frame           37.8     21.8    108.4     26.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.5
+  last prediction: touch back (84%)
+### run 159 t=563 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.5     21.7     36.0     42.5   72
+  recog           83.6     86.6     90.0     12.0   11
+  frame           36.3     22.2    108.3     27.5   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.5
+  last prediction: touch back (84%)
+### run 160 t=566 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.7     38.5     42.2   72
+  recog           87.9     87.2     93.0     11.4   11
+  frame           37.1     22.7    108.9     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 161 t=570 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.7     21.6     32.8     42.3   72
+  recog           84.9     86.7     90.4     11.8   11
+  frame           36.6     21.7    108.4     27.3   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.3
+  last prediction: touch back (84%)
+### run 162 t=574 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     36.1     41.8   72
+  recog           85.4     86.7     89.7     11.7   11
+  frame           37.0     21.7    108.6     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 163 t=578 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.1     21.6     36.9     41.5   72
+  recog           88.7     88.9     95.7     11.3   11
+  frame           37.7     21.9    112.5     26.6   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.6
+  last prediction: touch back (84%)
+### run 164 t=581 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.9     21.7     33.9     41.9   72
+  recog           86.4     87.4     90.4     11.6   11
+  frame           37.1     21.8    109.2     27.0   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 27.0
+  last prediction: touch back (84%)
+### run 165 t=585 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.3     21.6     34.6     41.2   72
+  recog           85.0     87.1     91.8     11.8   11
+  frame           37.3     22.6    108.8     26.8   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.8
+  last prediction: touch back (84%)
+### run 166 t=589 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.2     21.7     34.8     41.3   72
+  recog           84.3     87.0     91.4     11.9   11
+  frame           37.1     21.8    109.0     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 167 t=592 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            23.8     21.7     34.8     41.9   72
+  recog           87.1     87.5     95.8     11.5   11
+  frame           37.2     21.9    110.0     26.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.9
+  last prediction: touch back (84%)
+### run 168 t=596 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.7     21.7     36.6     40.5   72
+  recog           85.8     87.4     91.7     11.7   11
+  frame           37.8     22.1    109.9     26.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.4
+  last prediction: touch back (84%)
+### run 169 t=600 s
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            24.5     21.7     37.3     40.8   72
+  recog           87.3     87.6     93.8     11.5   11
+  frame           37.8     21.8    109.4     26.4   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 26.4
+  last prediction: touch back (84%)

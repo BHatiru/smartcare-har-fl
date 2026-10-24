@@ -1,0 +1,18 @@
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Loaded 72 frames from ntu_sample.avi (short-side=256 → 455x256)
+  MoveNet: movenet_thunder_int8.tflite in=256px dtype=uint8 threads=4
+  stgcnpp_medical15_cent2d.onnx: providers=['CPUExecutionProvider'], threads=4
+  15 action classes loaded.
+
+==========================================================================
+  CONFIG: movenet  |  proc 455x256  |  threads=4  |  det-every=1 recog-every=6 persons=2
+  ----------------------------------------------------------------------
+  stage        mean ms      p50      p95     ≈FPS   calls
+  det                —        —        —        —   0
+  pose            16.0     14.2     22.9     62.6   72
+  recog           63.5     62.7     65.6     15.7   11
+  frame           25.7     14.3     77.6     38.9   72
+  ----------------------------------------------------------------------
+  EFFECTIVE PIPELINE FPS (end-to-end, with skip cadence): 38.9
+  last prediction: touch back (84%)
+peak_rss_MiB 204.7

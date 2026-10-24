@@ -1,0 +1,6 @@
+# Preserve recorded bytes, including original CRLF/trailing spaces, on every platform.
+controlled_har_fl/** -text -whitespace
+pi5_benchmark_20261024/** -text -whitespace
+controlled_har_fl/README.md whitespace=blank-at-eol,blank-at-eof,space-before-tab
+controlled_har_fl/verify_release.py whitespace=blank-at-eol,blank-at-eof,space-before-tab
+pi5_benchmark_20261024/README.md whitespace=blank-at-eol,blank-at-eof,space-before-tab

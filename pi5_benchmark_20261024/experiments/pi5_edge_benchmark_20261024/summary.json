@@ -1,0 +1,71 @@
+{
+ "device": "Raspberry Pi 5 Model B (8 GB), Raspberry Pi OS (Debian 13), Python 3.13.5, onnxruntime 1.31.0, ai-edge-litert 2.3.0",
+ "config": "MoveNet SinglePose Thunder int8 + 15-class graph model (ONNX), 455x256 input, 4 threads, recognition every 6 frames, 2 person slots",
+ "cold": {
+  "fps": 38.9,
+  "pose": {
+   "mean": 16.0,
+   "p50": 14.2,
+   "p95": 22.9
+  },
+  "recog": {
+   "mean": 63.5,
+   "p50": 62.7,
+   "p95": 65.6
+  },
+  "frame": {
+   "mean": 25.7,
+   "p50": 14.3,
+   "p95": 77.6
+  },
+  "peak_rss_MiB": 204.7
+ },
+ "sustained_runs": 169,
+ "sustained_first_60s": {
+  "runs": 19,
+  "fps_mean": 34.2,
+  "pose_ms_mean": 18.7,
+  "recog_ms_mean": 70.7,
+  "frame_p95_ms_mean": 88.3
+ },
+ "sustained_last_60s": {
+  "runs": 17,
+  "fps_mean": 26.9,
+  "pose_ms_mean": 24.0,
+  "recog_ms_mean": 86.6,
+  "frame_p95_ms_mean": 109.7
+ },
+ "sustained_all": {
+  "runs": 169,
+  "fps_mean": 28.4,
+  "pose_ms_mean": 22.8,
+  "recog_ms_mean": 82.4,
+  "frame_p95_ms_mean": 105.6
+ },
+ "thermal": {
+  "start_C": 56.5,
+  "max_C": 88.9,
+  "min_clock_GHz": 1.5,
+  "max_clock_GHz": 2.4,
+  "first_throttle_s": 24,
+  "first_soft_temp_limit_s": 16,
+  "undervoltage_seen": false,
+  "throttled_fraction": 0.723
+ },
+ "alternatives_after_sustained_thermal_state": [
+  {
+   "config": "movenet",
+   "fps": 40.0,
+   "pose_ms": 11.5,
+   "recog_ms": 88.2,
+   "det_ms": null
+  },
+  {
+   "config": "rtmpose",
+   "fps": 3.1,
+   "pose_ms": 248.5,
+   "recog_ms": 123.6,
+   "det_ms": 59.2
+  }
+ ]
+}

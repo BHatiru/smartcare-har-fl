@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "interrupted_after_round": 1,
+  "resumed_to_round": 3,
+  "examples": 900,
+  "scope": "Actual backbone, pilot data, CUDA queue STOP_REQUESTED and disk resume; exact numerical resume separately checked in cuda_resume.json"
+}

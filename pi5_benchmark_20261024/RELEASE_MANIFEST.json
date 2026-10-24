@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "publication_date": "2026-10-25",
+  "manuscript_revision": "ce52eb01960d8d12c39bd208800c75037e4d4a6e",
+  "scope": "Explicit public artifact subset; original source/data provenance retained; raw recordings and input tensors excluded",
+  "sha256": {
+    "demo/demo_onnx.py": "3a4da30ee2d459000a35592dbaebd677b5ec8dd632a331aa17b735e20c52bccd",
+    "demo_combined/edge_emergency/bench.py": "3c89c6ab6a2b9a49532e7d4d2232d59b63e5eaf5136c7c743ac21522851aa1cd",
+    "demo_combined/edge_emergency/pose_backends.py": "0de57af7b518b520a30fb7aa4dcecc70caf8bc678fe01d3cf379ebcac76ac6db",
+    "demo_combined/edge_emergency/run_pi_measurements.sh": "f2ea35934e24a889a1c8488b09a8e86f527d7a605b6e9870cda69010f15c97c8",
+    "experiments/pi5_edge_benchmark_20261024/analyze.py": "7d505c4938e369d0dfedd96188d84e1e8d3bc3697902309465c8f9e845c747ac",
+    "experiments/pi5_edge_benchmark_20261024/pi_measure_20261024_1654/alternatives.txt": "47db59648eb88b1cf06931f6f33d72d939df988e79cb5cc0878ad251e07fd2a4",
+    "experiments/pi5_edge_benchmark_20261024/pi_measure_20261024_1654/cold_run.txt": "d633ba2cf12a16e0039139ebda9a3a3ca997dfbb657f0cd372dc53b3945aafa9",
+    "experiments/pi5_edge_benchmark_20261024/pi_measure_20261024_1654/env.txt": "3c2f01e8c214bb14aa3bd3506fae81aa7fab945201bfeeaa6775593ecbbc95f1",
+    "experiments/pi5_edge_benchmark_20261024/pi_measure_20261024_1654/sustained.txt": "f646b2a3bbc3a8ef488810ec9146a30ba6e36444761fb917dadb24ab624281d1",
+    "experiments/pi5_edge_benchmark_20261024/pi_measure_20261024_1654/thermal.log": "20122b4c656829c55d7c4ebd2d8716f615079e781d1ff4a03869538894695265",
+    "experiments/pi5_edge_benchmark_20261024/summary.json": "795fab135eada3838201ddffecdaef69ee295f594726b35ab840522fe32fd6be",
+    "README.md": "60f44aeb784e5d19bb347914d7beed2ab29aac550fc8ea214b0cb02024707444",
+    "tools/data/label_map/medical_15.txt": "2f755001cb50aa527fac4a133093b62851d6032b266128debc932dd6874e9a29"
+  }
+}

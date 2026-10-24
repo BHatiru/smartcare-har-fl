@@ -1,0 +1,19 @@
+% Generated from the independently verified 2026-10-25 HAR-FL results.
+\begin{table}[t]
+\centering
+\caption{Controlled 15-class HAR comparison. Mean $\pm$ sample SD across three model seeds.}
+\label{tab:har_fl_controlled}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Method & Accuracy (\%) & Macro-F1 (\%) & \shortstack{Worst-client\\accuracy (\%)} \\
+\midrule
+Centralized & $92.02 \pm 0.55$ & $92.03 \pm 0.55$ & $90.80 \pm 0.73$ \\
+Local only & $82.63 \pm 0.39$ & $82.66 \pm 0.34$ & $76.73 \pm 2.26$ \\
+FedAvg & $78.44 \pm 1.52$ & $77.78 \pm 1.87$ & $73.16 \pm 2.23$ \\
+FedBN & $83.47 \pm 0.85$ & $83.31 \pm 1.10$ & $81.26 \pm 2.22$ \\
+FedProx & $78.00 \pm 2.84$ & $77.23 \pm 3.21$ & $72.83 \pm 3.57$ \\
+\bottomrule
+\end{tabular}
+\end{table}

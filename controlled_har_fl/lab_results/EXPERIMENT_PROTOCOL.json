@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-10-24T12:45:47.552364+00:00",
+  "methods": [
+    "centralized",
+    "local",
+    "fedavg",
+    "fedbn",
+    "fedprox"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "rounds": 50,
+  "local_epochs": 1,
+  "batch_size": 16,
+  "lr": 0.01,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "proximal_mu": 0.01,
+  "schedule": "R1-20 base, R21-35 0.1x, R36-50 0.01x",
+  "precision": "float32, TF32 disabled",
+  "partition_seed": 42,
+  "alpha": 0.5,
+  "num_clients": 5,
+  "test_allocation_seed": 20261024,
+  "selection": "Maximum pooled development macro-F1, lower cross-entropy, earliest round",
+  "tuning_budget": "Two-round small hardware pilot and two full-data development timing rounds; no hyperparameter search. Batch64 synthetic compatibility probe only; batch16 retained.",
+  "initialization": "Paired seed, fresh random initialization for every method; pilot checkpoints not reused",
+  "calibration": false,
+  "graph_changes": false,
+  "deadline": "2026-10-24T23:30:07.331994+00:00",
+  "runtime_estimate_artifact": "runtime_estimate.json",
+  "convergence_claim": false
+}

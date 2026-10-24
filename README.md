@@ -7,88 +7,71 @@ This repository holds the artifacts for the human activity recognition (HAR) and
 > School of Computing and Artificial Intelligence (SCAI), Nazarbayev University, Astana, Kazakhstan. T. Bayan is also affiliated with the University of Manchester, Manchester, United Kingdom.
 > Supported by the Ministry of Science and Higher Education of the Republic of Kazakhstan, grant AP23487613, "Smart-Care: Innovative Multi-Sensor Technology for Elderly and Disabled Health Management".
 
-It contains:
+The completed **15-class, three-seed HAR-FL comparison** is now published in [controlled_har_fl/](controlled_har_fl/README.md). It contains the exact training/evaluation source, tests, selected checkpoints, split manifests, complete development histories and final-test predictions used in manuscript revision `ce52eb0` (25 October 2026).
 
-- the HAR training code;
-- the archived result files;
-- selected checkpoints, including the ONNX model used by the edge node;
-- the notebooks in which the archived experiments ran;
-- an edge benchmark harness.
+The repository also retains the earlier HAR/FL experiments and deployed centralized ONNX model. These evidence blocks have different training and selection protocols.
 
-The context-alerting (PAMAP2) analysis, the physiology evaluation and the patient-history controls are not in this repository. They are available from the authors on reasonable request.
+## Current manuscript artifacts
 
-## How the paper names the archived FL procedures
-
-The archived 50-round FL experiment uses a **10-class** task. It ran as sequential PyTorch simulations in `notebooks/train_colab_baselines.ipynb`. Its result keys do not name canonical algorithms. The paper uses these names instead:
-
-| Key in `results/phase1_baselines.json` | Name in the paper | What the code does |
+| Evidence block | Result or scope | Location |
 |---|---|---|
-| `fedavg` | Global averaging + calibration | Averages client updates after a 2-epoch pooled warm start. After every round, BN statistics are recalibrated on up to 30×128 pooled training examples. |
-| `fedbn` | Partial-BN exclusion + calibration | Skips state keys whose names contain `bn`. This misses 72 of the model's 79 BN modules and keeps no client BN state across rounds. **It is not canonical FedBN.** |
-| `cluster_fedbn` | Cluster-balanced averaging + calibration | Applies the same partial-BN exclusion, averages within classifier-weight clusters, then averages the cluster means equally. In the archived four-client/one-client split, the singleton therefore receives half the update. |
+| Controlled 15-class FL comparison | Three model seeds, one client partition; development-selected checkpoints, 50 rounds | [Protocol, code and results](controlled_har_fl/README.md) |
+| FL paper table and curves | Full-precision per-seed/summary CSVs, table source, all development curves | [Paper assets](controlled_har_fl/paper/) |
+| Final-test metrics and cohort assignment | Saved logits, identities, allocation, per-class/client/subject metrics | [Final-test artifacts](controlled_har_fl/lab_results/final_test/) |
+| Selected trained models | All 15 selected checkpoints, hashes and complete development histories | [Training artifacts](controlled_har_fl/lab_results/primary/) and [frozen selection](controlled_har_fl/lab_results/frozen_selection.json) |
+| Separate archived centralized 2D/3D HAR | Final-epoch accuracy 89.7% / 86.5%; test-selected best 90.6% / 86.8% | `results/cent_{2d,3d}_15cls_results.json`; archived class diagnostics use the selected checkpoints |
+| Raspberry Pi 5 measurements | Cold compute 38.9 frames/s; final-minute mean 26.9 frames/s after thermal throttling | [Recorded logs, bound source and analyzer](pi5_benchmark_20261024/README.md) |
+| Deployed model | Older centralized 15-class 2D model, distinct from the new matched centralized/FedBN references | `checkpoints/stgcnpp_medical15_cent2d.onnx` and `.onnx.data` |
 
-Two further points about the result files:
+### Controlled comparison
 
-- `worst_client_acc` is the lowest client **training-pass** accuracy at round 50. It is not held-out client performance or a fairness measure.
-- `best_acc` values are maxima over per-round **test** evaluations, so they are test-selected. The retained `sampled_history` contains rounds 1, 10, 20, 30, 40 and 50.
+Mean +/- sample standard deviation across model seeds 42, 43 and 44:
 
-The 10-round optimization screen (proximal, global/personal and representation/head variants) ran in `notebooks/train_colab_methods_ran.ipynb`. Its rows use different estimators. Its round-10 contrast between global averaging and partial-BN exclusion has the opposite sign to the 50-round run, so the screen does not rank the procedures.
+| Method | Test accuracy, % | Test macro-F1, % | Worst-client test accuracy, % |
+|---|---:|---:|---:|
+| Centralized | 92.02 +/- 0.55 | 92.03 +/- 0.55 | 90.80 +/- 0.73 |
+| Local only | 82.63 +/- 0.39 | 82.66 +/- 0.34 | 76.73 +/- 2.26 |
+| FedAvg | 78.44 +/- 1.52 | 77.78 +/- 1.87 | 73.16 +/- 2.23 |
+| FedBN | 83.47 +/- 0.85 | 83.31 +/- 1.10 | 81.26 +/- 2.22 |
+| FedProx | 78.00 +/- 2.84 | 77.23 +/- 3.21 | 72.83 +/- 3.57 |
 
-## Paper item → artifact map
+Five clients use one simulated Dirichlet label partition (alpha 0.5, partition seed 42). Training/development/test performers are disjoint. FedBN retains all client BN state without pooled calibration or warm start. Every method uses paired fresh initialization, matched training exposure and development-only checkpoint selection. Model seeds do not replicate client partitions. Label-based allocation defines benchmark cohorts, not a deployable client router. The historically explored NTU benchmark is not an untouched external validation set.
 
-| Paper item | Reported values | Artifact |
-|---|---|---|
-| Table II, centralized 15-class recognition | 2D final epoch 89.7% (test-selected best 90.6%); 3D final 86.5% (best 86.8%); 444,507 and 450,603 parameters | `results/cent_{2d,3d}_15cls_results.json` |
-| Figs. 7–8, fall metrics | Per-class recall for both representations. For the **test-selected 2D checkpoint**, falling recall is 267/275 (97.1%), with zero false falling predictions among 3,850 non-fall clips (100% observed precision). | `results/cent_{2d,3d}_15cls_confusion_matrix.csv`, `checkpoints/cent_{2d,3d}_15cls_best.pt`, `figures/make_figs.py` |
-| Table III, 10-class FL | Final 72.0 / 72.6 / 74.6% against 88.1% centralized; round-50 training-pass minima 59.9 / 59.3 / 65.0% | `results/phase1_baselines.json`, `notebooks/train_colab_baselines.ipynb` |
-| Fig. 9 | Saved test probes at rounds 1, 10, 20, 30, 40 and 50 | `results/phase1_baselines.json` (`sampled_history`) |
-| Table IV, 10-round screen | Best, round-10 and time-ratio values | Printed outputs in `notebooks/train_colab_methods_ran.ipynb` |
-| Edge node model | Centrally trained 15-class 2D checkpoint | `checkpoints/stgcnpp_medical15_cent2d.onnx` and its `.onnx.data` file. The file name is historical; the model is the custom graph model described below. |
+The result supports local normalization under the evaluated label skew. FedBN's pooled improvement over local-only learning is modest; its worst-client improvement is larger. Neither establishes a universal benefit of federation or a new algorithm.
 
-The paper reports **no device latency, throughput or energy measurements**. `edge/bench.py` is archived benchmark-harness source, not a validated runnable package: it requires separate pose models and runtime dependencies, its default model/label paths refer to the development tree, and its packaged copy contains an unresolved `_ROOT` reference. It is not evidence of any particular frame rate.
+To verify the released metrics without training or downloading input tensors:
+
+```bash
+# In a Python environment with NumPy installed; recorded version: 2.4.4
+cd controlled_har_fl
+python verify_release.py
+```
+
+The [package README](controlled_har_fl/README.md) gives implementation tests, environment versions, data preparation and new-run commands. Raw NTU annotations/prepared input tensors are not redistributed. Public sequence identifiers, prediction logits and selected model weights are included. The manifest identifies exactly which artifacts are published.
+
+## Raspberry Pi measurement scope
+
+The Pi result times a compute loop over pre-decoded frames, with MoveNet SinglePose Thunder int8, four threads and graph-model inference every six frames. It excludes capture, network delivery and alert handling, and uses the older centralized deployment checkpoint. It is not a measured end-to-end alarm rate, an energy result, or a benchmark of the new FedBN checkpoints. The source files actually hashed on the device are in [pi5_benchmark_20261024/](pi5_benchmark_20261024/README.md).
+
+The top-level `edge/` directory remains the older archived harness; use the versioned measurement package when interpreting the Pi numbers.
+
+## Historical FL experiments
+
+The archived `results/phase1_baselines.json` and `notebooks/train_colab_baselines.ipynb` describe a **10-class**, single-run experiment. They do not produce the controlled table above:
+
+| Historical result key | Actual procedure |
+|---|---|
+| `fedavg` | Global averaging after a pooled warm start, with pooled BN recalibration after each round. |
+| `fedbn` | Partial name-based BN exclusion plus pooled calibration; it misses most BN modules and discards client BN state. It is not canonical FedBN. |
+| `cluster_fedbn` | The same partial exclusion, with equal averaging of cluster means; unequal clusters give unequal per-client influence. |
+
+Historical `worst_client_acc` values are training-pass minima, and historical `best_acc` values are maxima over test probes. The 10-round notebook screen mixes estimators and does not establish an algorithm ranking. These files remain for provenance and have been superseded as the main FL evidence.
+
+Top-level `train_centralized.py`, `train_federated.py` and `prepare_medical_data.py` are the older development scripts. The Flower script is a separate implementation, not the code path for either the notebook results or the new corrected sequential simulation. Use the versioned package for the current controlled comparison.
 
 ## Model
 
-`models/stgcn.py` is a custom ST-GCN-style implementation inspired by ST-GCN++ ([pyskl](https://github.com/kennymckormick/pyskl), Apache-2.0). Its graph construction is part of the evaluated model. It inserts one directed copy of each skeleton edge and initializes the learned matrices from the adjacency, which differs from the reference bidirectional graph. The model is therefore not a faithful reproduction of the published ST-GCN++ configuration.
-
-## Running the provided scripts
-
-The commands below create **new** runs on the 15-class subset. They do not regenerate the archived 10-class FL experiment, whose per-client sample lists were not saved.
-
-```bash
-pip install -r requirements.txt
-
-# 1. Data: downloads the public PYSKL NTU RGB+D 60 skeleton annotations and builds the
-#    15-class subset plus label-skewed Dirichlet client shards (alpha = 0.5)
-python prepare_medical_data.py --num-clients 5 --alpha 0.5 --seed 42
-
-# 2. Centralized 15-class training (2D and 3D)
-python train_centralized.py --data-dir data/fed_medical_2d/centralized --graph coco --tag cent_2d_15cls
-python train_centralized.py --data-dir data/fed_medical_3d/centralized --graph ntu  --tag cent_3d_15cls
-
-# 3. A new Flower simulation on the 15-class data (note --num-classes; the script defaults to 10)
-# The simulation extra supplies Ray, which requirements.txt alone does not install.
-python -m pip install "flwr[simulation]>=1.7"
-python train_federated.py --data-dir data/fed_medical_2d --graph coco --num-classes 15 \
-    --mode fedavg --num-rounds 50
-
-# 4. HAR plots from the archived results
-python figures/make_figs.py
-```
-
-The centralized commands default to CUDA; add `--device cpu` to run them on a CPU.
-
-`train_federated.py` is a separate Flower implementation (`flwr`). It is not the code path of the archived notebook experiments. Its `--mode` names (`fedbn`, `cluster`, `fedprox`) are command-line labels. Inspect its client-state and normalization handling before treating a run as a canonical baseline.
-
-The Dirichlet split assigns clips to clients **by label only**, so one performer's clips can reach several clients. The partition models label skew, not person-owned devices.
-
-## Limitations of the archived runs
-
-- There is one archived run per configuration and no development split. The FL notebooks set seed 42; the centralized result files do not record a training seed.
-- The 10-class FL task is distinct from the 15-class centralized task, and the centralized and federated training budgets differ.
-- The FL procedures use pooled warm starts and pooled BN recalibration, so they are not strictly data-isolated.
-- FL histories retain rounds 1, 10, 20, 30, 40 and 50; intermediate per-round records are unavailable.
-- Clip-level NTU metrics do not measure online alarm sensitivity, latency or false alarms per hour.
+The graph model is a custom ST-GCN-style implementation inspired by [PYSKL/ST-GCN++](https://github.com/kennymckormick/pyskl), not a faithful upstream configuration. The controlled run preserves its directed graph and preprocessing. The 15-class 2D backbone has 444,507 trainable parameters.
 
 ## The 15 medical classes
 
@@ -114,14 +97,12 @@ The NTU RGB+D 60 action IDs below match `MEDICAL_CLASS_MAP` in `prepare_medical_
 
 Only CRITICAL (falling) triggers the fall alarm. The levels are interface labels, not clinical severity annotations.
 
-## Exploratory material not used as paper evidence
+## Other evidence and exploratory work
 
-- `vitals_fl/` is a temporal vital-sign FL pilot on a different task and model.
-- `notebooks/train_colab_multimodal_ran.ipynb` and `docs/report-multimodal-fusion.md` are a synthetic-IMU fusion pilot.
-- `docs/` holds historical working notes. They use older method names such as "FedBN" and "worst-client". Where they differ from the manuscript, the manuscript's definitions above apply.
+The PAMAP2 context-alerting analysis and physiology evaluation are not part of this HAR release. Their evidence is available from the authors on reasonable request. `vitals_fl/`, the synthetic-IMU fusion notebook and the historical `docs/` reports are separate exploratory material; their older claims must not be substituted for the current manuscript evidence.
 
-The vitals-FL and synthetic-IMU pilot results are not used as evidence in this manuscript. Historical notes may repeat HAR/FL results that are reported, under the revised definitions above.
+A follow-up study of local classifier heads and adapted layer-wise shrinking began on 25 October 2026. It is still development-stage research and is not included in the paper's results above.
 
 ## License
 
-Apache-2.0 (see `LICENSE`). The NTU RGB+D 60 annotations are the public PYSKL releases and remain under their own terms.
+Apache-2.0 (see `LICENSE`). Dataset annotations and externally obtained pose models retain their own terms.

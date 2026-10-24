@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "tests": 5,
+  "scope": "Exact serialized round-boundary CUDA resume; all five methods, toy BN network"
+}

@@ -1,0 +1,15 @@
+falling
+staggering
+nausea/vomiting
+touch head
+touch chest
+touch back
+touch neck
+sneeze/cough
+standing up
+sitting down
+walking towards
+walking apart
+drinking
+eating
+phone call
